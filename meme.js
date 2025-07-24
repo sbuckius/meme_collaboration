@@ -1,12 +1,13 @@
 // ✅ Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+
+  apiKey: "AIzaSyB_Zx8EIiGfNrVngksv3HdUxfadfaQJ6n4",
+  authDomain: "memecollaboration.firebaseapp.com",
+  projectId: "memecollaboration",
+  storageBucket: "memecollaboration.firebasestorage.app",
+  messagingSenderId: "775291279692",
+  appId: "1:775291279692:web:3f55a14c5d60ef60e897e9",
+  measurementId: "G-ZR1L4Y6E15"
 };
 
 firebase.initializeApp(firebaseConfig);
