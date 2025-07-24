@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Collaborative Meme Canvas</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    #controls {
+      text-align: center;
+      padding: 10px;
+    }
+    input, button {
+      margin: 5px;
+      font-size: 16px;
+    }
+    #instructions {
+      font-family: 'Impact', sans-serif;
+      font-size: 24px;
+      text-align: center;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="instructions">
+    Upload an image that could be used as a meme. Do not include text.
+  </div>
+
+  <div id="controls">
+    <input type="file" id="imgUpload" accept="image/*" />
+    <input type="text" id="textInput" placeholder="Add meme text" />
+    <button id="placeTextBtn">Place Text</button>
+    <button id="clearBtn">Reset</button>
+  </div>
+
+  <script src="meme.js"></script>
+</body>
+</html>
